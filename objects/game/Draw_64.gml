@@ -2,6 +2,7 @@ switch (room){
 	case Room1:
 		draw_text(70, 20, "Points = " +  string(score) );
 		draw_text(70, 50, "Lives = " +  string(lives) );
+		draw_text(70, 80, "FPS = " +  string(fps) );
 		break;
 		
 	case start:
